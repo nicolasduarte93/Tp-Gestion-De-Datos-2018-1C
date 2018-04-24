@@ -1,0 +1,12 @@
+use [GD1C2018]
+go
+
+/*Creacion del Schema*/
+IF NOT EXISTS (SELECT * FROM SYS.schemas
+				WHERE name = 'FOUR_SIZONS'	)											
+BEGIN
+	EXEC('CREATE SCHEMA FOUR_SIZONS AUTHORIZATION gd')
+
+END
+go
+/*FIN DE LA CREACION DEL SCHEMA*/

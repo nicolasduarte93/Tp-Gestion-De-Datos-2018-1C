@@ -1,1 +1,0 @@
-# Tp-Gestion-De-Datos-2018-1C
